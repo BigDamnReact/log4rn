@@ -1,0 +1,6 @@
+# 1.0.0 (2025-01-18)
+
+
+### Features
+
+* added husky ([3d9f36e](https://github.com/BigDamnReact/log4rn/commit/3d9f36ecd55b6f48c4739b31d99604d0666f23bb))
