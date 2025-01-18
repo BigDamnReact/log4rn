@@ -1,1 +1,1 @@
-npx --no-install semantic-release
+yarn semantic-release --no-ci
