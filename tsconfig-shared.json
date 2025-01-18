@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "nodenext",
+    "outDir": "${configDir}/dist",
+    "rootDir": "${configDir}/src",
+    // "outDir": "./dist", // define in the parent config, if extend feature is used
+    // "rootDir": "./src", // define in the parent config, if extend feature is used
+    "strict": true,
+    "esModuleInterop": true, // true - will generate cjs, false - esm
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export, plist lib is cjs comparible only
+    "skipLibCheck": true,
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    // "types": [
+    //   //"reflect-metadata",
+    //   "node"
+    // ],
+  },
+
+  "include": [
+    "${configDir}/src/**/*"
+  ],
+  "exclude": [
+    "${configDir}/node_modules",
+    "${configDir}/**/*.spec.ts"
+  ]
+
+  // "include": [ // define in the parent config, if extend feature is used
+  //   "./src/**/*"
+  // ],
+  // "exclude": [ // define in the parent config, if extend feature is used
+  //   "node_modules",
+  //   "**/*.spec.ts" 
+  // ]
+}

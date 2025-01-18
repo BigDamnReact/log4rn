@@ -1,0 +1,27 @@
+{
+  "name": "log4rn",
+  "version": "1.0.0",
+  "repository": "https://github.com/BigDamnReact/log4rn.git",
+  "author": "Dmytro Bondarenko <bondarenkod@windowslive.com>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@4.6.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --build"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsc-watch": "6.2.1",
+    "typescript": "^5.7.3"
+  }
+}
