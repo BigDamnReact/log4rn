@@ -13,7 +13,8 @@
     "./*": "./dist/*.js"
   },
   "files": [
-    "dist/**/*"
+    "dist/**/*", 
+    "src/**/*"
   ],
   "scripts": {
     "typecheck": "tsc --noEmit",
