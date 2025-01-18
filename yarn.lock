@@ -754,6 +754,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^22.10.7":
+  version: 22.10.7
+  resolution: "@types/node@npm:22.10.7"
+  dependencies:
+    undici-types: "npm:~6.20.0"
+  checksum: 10/64cde1c2f5e5f7d597d3bd462f52c3c2d688a66623eb75d25e1d1d63d384ef553a27100635ad0dbb7d74da517048aa636947863eb624cf85f25d2f22370ce474
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0, @types/normalize-package-data@npm:^2.4.3":
   version: 2.4.4
   resolution: "@types/normalize-package-data@npm:2.4.4"
@@ -3078,20 +3087,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"log4rn@workspace:.":
+"log4rn-ws@workspace:.":
   version: 0.0.0-use.local
-  resolution: "log4rn@workspace:."
+  resolution: "log4rn-ws@workspace:."
   dependencies:
     "@semantic-release/changelog": "npm:^6.0.3"
     "@semantic-release/commit-analyzer": "npm:^13.0.1"
     "@semantic-release/git": "npm:^10.0.1"
     "@semantic-release/npm": "npm:^12.0.1"
     "@semantic-release/release-notes-generator": "npm:^14.0.3"
+    "@types/node": "npm:^22.10.7"
     husky: "npm:^9.1.7"
     semantic-release: "npm:^24.2.1"
     standard-version: "npm:^9.5.0"
     ts-node: "npm:^10.9.2"
     tsc-watch: "npm:6.2.1"
+    typescript: "npm:^5.7.3"
+  languageName: unknown
+  linkType: soft
+
+"log4rn@workspace:packages/log4rn":
+  version: 0.0.0-use.local
+  resolution: "log4rn@workspace:packages/log4rn"
+  dependencies:
     typescript: "npm:^5.7.3"
   languageName: unknown
   linkType: soft
@@ -5364,6 +5382,13 @@ __metadata:
   bin:
     uglifyjs: bin/uglifyjs
   checksum: 10/6b9639c1985d24580b01bb0ab68e78de310d38eeba7db45bec7850ab4093d8ee464d80ccfaceda9c68d1c366efbee28573b52f95e69ac792354c145acd380b11
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.20.0":
+  version: 6.20.0
+  resolution: "undici-types@npm:6.20.0"
+  checksum: 10/583ac7bbf4ff69931d3985f4762cde2690bb607844c16a5e2fbb92ed312fe4fa1b365e953032d469fa28ba8b224e88a595f0b10a449332f83fa77c695e567dbe
   languageName: node
   linkType: hard
 
